@@ -7,7 +7,7 @@ about:
   head: 26a8bd5
   archived: false
   latestVersion: v0.21.0
-  collectedAt: 2026-09-04T19:32:49Z
+  collectedAt: 2026-09-04T20:57:46Z
 timeline:
   created: 2013-06-16
   lastCommit: 2025-07-14
@@ -90,6 +90,99 @@ total:
   openIssue: 336
   commit: 6764
 ---
+path: /home/runner/.x-repo/github.com/elves/elvish
+collectedAt: 2026-09-04T20:57:48Z
+loc:
+  Go:
+    code: 52308
+    comments: 7461
+    blanks: 7400
+    files: 622
+  Json:
+    code: 7993
+    comments: 0
+    blanks: 5
+    files: 10
+  Elvish:
+    code: 1149
+    comments: 4841
+    blanks: 463
+    files: 62
+  Svg:
+    code: 935
+    comments: 62
+    blanks: 7
+    files: 11
+  Css:
+    code: 690
+    comments: 219
+    blanks: 143
+    files: 8
+  TypeScript:
+    code: 385
+    comments: 58
+    blanks: 59
+    files: 6
+  Toml:
+    code: 289
+    comments: 5
+    blanks: 65
+    files: 7
+  Html:
+    code: 280
+    comments: 1
+    blanks: 13
+    files: 23
+  JavaScript:
+    code: 208
+    comments: 30
+    blanks: 22
+    files: 1
+  Sh:
+    code: 129
+    comments: 46
+    blanks: 27
+    files: 9
+  Python:
+    code: 105
+    comments: 29
+    blanks: 16
+    files: 2
+  Makefile:
+    code: 69
+    comments: 21
+    blanks: 22
+    files: 3
+  Nix:
+    code: 59
+    comments: 4
+    blanks: 6
+    files: 1
+  Xml:
+    code: 9
+    comments: 0
+    blanks: 0
+    files: 1
+  Dockerfile:
+    code: 7
+    comments: 1
+    blanks: 1
+    files: 1
+  Bitbake:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 10848
+    blanks: 4396
+    files: 84
+total:
+  code: 65458
+  comments: 23736
+  blanks: 12706
+  files: 852
 ---
 date: "2026-08-24"
 repo:
