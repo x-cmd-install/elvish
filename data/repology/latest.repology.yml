@@ -1,12 +1,17 @@
-- repo: chromebrew
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: elvish
+  binnames:
+    - elvish
   visiblename: elvish
-  version: 0.21.0
-  origversion: null
-  status: newest
-  summary: Friendly and expressive shell
-  licenses:
-    - BSD-2-Clause
+  version: 0.15.0
+  origversion: 0.15.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: elvish
@@ -144,6 +149,15 @@
   origversion: null
   status: newest
   summary: Powerful scripting language & versatile interactive shell
+- repo: chromebrew
+  srcname: elvish
+  visiblename: elvish
+  version: 0.21.0
+  origversion: null
+  status: newest
+  summary: Friendly and expressive shell
+  licenses:
+    - BSD-2-Clause
 - repo: debian_11
   subrepo: bullseye/main
   srcname: elvish
@@ -223,20 +237,6 @@
   version: 0.21.0
   origversion: 0.21.0-2
   status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.15.0
-  origversion: 0.15.0-1
-  status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - zhsj@debian.org
@@ -396,20 +396,6 @@
     - CC-BY-SA-4.0
   categories:
     - app-shells
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.20.1
-  origversion: 0.20.1-1build1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - zhsj@debian.org
-  categories:
-    - universe/misc
 - repo: gentoo_ovl_guru
   srcname: app-shells/elvish
   visiblename: app-shells/elvish
@@ -679,20 +665,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - BSD-2-Clause
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.21.0
-  origversion: 0.21.0-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - universe/misc
 - repo: openbsd
   srcname: shells/elvish
   binname: elvish
@@ -742,7 +714,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: elvish
   binnames:
     - elvish
@@ -756,7 +728,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: elvish
   binnames:
     - elvish
@@ -786,7 +758,7 @@
   binname: elvish
   visiblename: shells/elvish
   version: 0.21.0
-  origversion: 0.21.0nb20
+  origversion: 0.21.0nb21
   status: newest
   summary: Expressive programming language and a versatile interactive shell
   maintainers:
@@ -917,6 +889,20 @@
   maintainers:
     - termux@github
 - repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: 0.17.0
+  origversion: 0.17.0-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - zhsj@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: elvish
   binnames:
@@ -930,14 +916,14 @@
     - zhsj@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: elvish
   binnames:
     - elvish
   visiblename: elvish
-  version: 0.17.0
-  origversion: 0.17.0-1ubuntu0.1
+  version: 0.20.1
+  origversion: 0.20.1-1build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -955,6 +941,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - zhsj@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: 0.21.0
+  origversion: 0.21.0-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - zhsj@debian.org
   categories:
     - universe/misc
