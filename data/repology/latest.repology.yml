@@ -1,3 +1,119 @@
+- repo: parabola
+  subrepo: extra
+  srcname: elvish
+  binname: elvish
+  visiblename: elvish
+  version: 0.21.0
+  origversion: 0.21.0-1
+  status: newest
+  summary: Versatile interactive shell & powerful scripting language in one
+  licenses:
+    - BSD
+- repo: pardus_21
+  subrepo: main
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: 0.15.0
+  origversion: 0.15.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: 0.21.0
+  origversion: 0.21.0-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - zhsj@debian.org
+  categories:
+    - misc
+- repo: wakemeops
+  subrepo: terminal
+  binname: elvish
+  visiblename: elvish
+  version: 0.21.0
+  origversion: 0.21.0-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: elvish
+  visiblename: elvish
+  version: 0.20.1
+  origversion: 0.20.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: elvish
+  visiblename: elvish
+  version: 0.20.0
+  origversion: 0.20.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: elvish
+  visiblename: elvish
+  version: 0.19.2
+  origversion: 0.19.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: elvish
+  visiblename: elvish
+  version: 0.19.1
+  origversion: 0.19.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: elvish
+  visiblename: elvish
+  version: 0.18.0
+  origversion: 0.18.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wikidata
+  srcname: Q111520563
+  visiblename: Elvish
+  version: 0.21.0
+  origversion: null
+  status: newest
+  summary: programming language and shell
+  licenses:
+    - 2-clause BSD License
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: 0.19.2
+  origversion: 0.19.2-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: elvish
@@ -152,20 +268,6 @@
   visiblename: elvish
   version: 0.15.0
   origversion: 0.15.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.19.2
-  origversion: 0.19.2-1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -688,59 +790,6 @@
     - BSD
   categories:
     - Shell
-- repo: parabola
-  subrepo: extra
-  srcname: elvish
-  binname: elvish
-  visiblename: elvish
-  version: 0.21.0
-  origversion: 0.21.0-1
-  status: newest
-  summary: Versatile interactive shell & powerful scripting language in one
-  licenses:
-    - BSD
-- repo: pardus_21
-  subrepo: main
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.15.0
-  origversion: 0.15.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.21.0
-  origversion: 0.21.0-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.21.0
-  origversion: 0.21.0-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_2
   srcname: shells/elvish
   binname: elvish
@@ -917,20 +966,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: 0.20.1
-  origversion: 0.20.1-1build1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - zhsj@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: elvish
   binnames:
@@ -938,6 +973,20 @@
   visiblename: elvish
   version: 0.20.1
   origversion: 0.20.1-1ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - zhsj@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: 0.20.1
+  origversion: 0.20.1-1build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1013,69 +1062,20 @@
     - orphan@voidlinux.org
   licenses:
     - BSD-2-Clause
-- repo: wakemeops
-  subrepo: terminal
-  binname: elvish
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: elvish
+  binnames:
+    - elvish
   visiblename: elvish
   version: 0.21.0
-  origversion: 0.21.0-1~ops2deb
+  origversion: 0.21.0-2
   status: newest
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: elvish
-  visiblename: elvish
-  version: 0.20.1
-  origversion: 0.20.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: elvish
-  visiblename: elvish
-  version: 0.20.0
-  origversion: 0.20.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: elvish
-  visiblename: elvish
-  version: 0.19.2
-  origversion: 0.19.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: elvish
-  visiblename: elvish
-  version: 0.19.1
-  origversion: 0.19.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: elvish
-  visiblename: elvish
-  version: 0.18.0
-  origversion: 0.18.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wikidata
-  srcname: Q111520563
-  visiblename: Elvish
-  version: 0.21.0
-  origversion: null
-  status: newest
-  summary: programming language and shell
-  licenses:
-    - 2-clause BSD License
+    - team+pkg-go@tracker.debian.org
+    - zhsj@debian.org
+  categories:
+    - misc
 - repo: deepin_unstable
   subrepo: main
   srcname: elvish
@@ -1120,21 +1120,6 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: elvish
-  binnames:
-    - elvish
-  visiblename: elvish
-  version: "0.13"
-  origversion: 0.13+ds1-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - zhsj@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal-updates/universe
   srcname: elvish
   binnames:
@@ -1145,6 +1130,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - zhsj@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: elvish
+  binnames:
+    - elvish
+  visiblename: elvish
+  version: "0.13"
+  origversion: 0.13+ds1-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - zhsj@debian.org
   categories:
     - universe/misc
