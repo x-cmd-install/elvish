@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-12 | 0 | 0 | 0 | 0 | 1 | 0 |
-| 90d | 2026-08-13 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-05-15 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 360d | 2025-11-16 | 0 | 0 | 4 | 0 | 2 | 0 |
-| last720d | 2024-11-21 | 0 | 4 | 12 | 9 | 32 | 37 |
+| 30d | 2026-10-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-13 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-08-14 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-05-16 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 360d | 2025-11-17 | 0 | 0 | 4 | 0 | 2 | 0 |
+| last720d | 2024-11-22 | 0 | 4 | 12 | 9 | 32 | 37 |
 
 ## Distribution status
 
-Reported by **89** distros on [repology.org](https://repology.org/project/elvish). **58** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
+Reported by **90** distros on [repology.org](https://repology.org/project/elvish). **59** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **89** distros on [repology.org](https://repology.org/project/elvish
 | Ubuntu 26.04 LTS | `0.21.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `0.20.1` | ⚠️ outdated |
 | Arch | `0.21.0` | ✅ latest |
-| Homebrew | `0.21.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.21.0` | ✅ latest |
 | Nix unstable | `0.21.0` | ✅ latest |
 | Void | `0.21.0` | ✅ latest |
@@ -91,4 +91,4 @@ Install metadata for elvish lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:53:13Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T09:14:04Z._
